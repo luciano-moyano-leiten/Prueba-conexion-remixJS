@@ -23,7 +23,7 @@ export let detailAction = async () => {
 export default function ListPruebaDetail() {
     return (
         <div>
-            <h1>Contact List</h1>
+            <h1>Lista de contactos</h1>
             <ul>
                 {contacts.map(contact => (
                     <li key={contact.id}>
